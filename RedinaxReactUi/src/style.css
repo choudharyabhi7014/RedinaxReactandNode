@@ -1,0 +1,55 @@
+/* Login form desining Css */
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Full height */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #333; /* Dark sidebar background color */
+    color: #fff; /* Text color */
+}
+
+.sidebar .nav-link {
+    color: #fff; /* Text color for navigation links */
+}
+
+.sidebar .nav-link.active {
+    background-color: #555; /* Active link background color */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Add more styles as needed */
